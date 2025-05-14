@@ -2,6 +2,7 @@
 # Playbook de Hola Mundo en Ansible
 - name: Playbook Hola Mundo
   hosts: localhost
+  connection: local
   tasks:
     - name: Imprimir mensaje Hola Mundo
       ansible.builtin.debug:
