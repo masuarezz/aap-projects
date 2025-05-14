@@ -4,5 +4,5 @@
   hosts: localhost
   tasks:
     - name: Imprimir mensaje Hola Mundo
-      debug:
+      ansible.builtin.debug:
         msg: "¡Hola Mundo desde Ansible!"
